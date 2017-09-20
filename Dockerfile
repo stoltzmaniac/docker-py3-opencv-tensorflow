@@ -1,12 +1,12 @@
 FROM tensorflow/tensorflow:latest-py3
 
-MAINTAINER Doosik Kim <doosik71@gmail.com>
+MAINTAINER Scott Stoltzman <scott@stoltzmanconsulting.com>
 
 LABEL description="tensorflow 1.1.0, python 3.5.2, opencv 3.2.0, and freetype 1.0.2."
 
 ENV PYTHONPATH /home
 
-# Install python packages required.
+# Install python packages required
 
 RUN pip install fonttools==3.6.2 \
     freetype-py==1.0.2 \
